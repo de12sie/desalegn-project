@@ -1,0 +1,347 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+img{
+    max-width: 100%;
+}
+.header-container{
+    position: relative;
+    background-color: black;
+    color: #fff;
+  font-weight: 200;
+ font-size: 0.75em;
+ margin-bottom: 60px;
+}
+.header-container ul{
+    display: flex;
+ justify-content: space-between;
+     align-items: center;
+
+
+}
+.links-container{
+    width: 980px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+.header-container,.links-container ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-container ul{
+    list-style-type: none;
+}
+.header-container,.links-container ul li {
+/*      display: inline-block;*/
+/*  padding: 14px 0 8px;*/
+  padding-top: 11px;
+  padding-right: 0;
+  padding-bottom: 18px;
+  padding-left: 0;
+  height: 25px;
+  opacity: 0.8;
+}
+.apple-logo,.search-icon ,.cart-logo{
+    position: absolute;
+    width: 16px;
+    top: 18px;
+}
+.header-container,.links-container ul li:hover{
+    opacity: 1;
+}
+.mac-container{
+    font-weight: 600;
+    font-size: 55px;
+}
+.description-contaner{
+    font-size: 38px;
+}
+.links-rapper{
+    padding-left: 18px;
+}
+.links-rapper a{
+    text-decoration: none;
+    color: steelblue;
+}
+.links-rapper a:hover{
+    cursor: pointer;
+    color: #f72;
+}
+
+
+
+
+/*<!-- macbook pro styling is starting here -->*/
+.macbook-wrapper{
+background-color: #fafafa;
+text-align: center;
+}
+/*    this is the styling of iphone11 pro*/
+/*.relativeposi{
+background-color: antiquewhite;
+        padding: 12px;
+        color: black;
+        position: relative;
+        width: 200px;
+        height: 150px;
+}
+.relativeposition{
+      background-color: aqua;
+          position: absolute;
+          color: blue;
+          top: 80px;
+          bottom: 5px;
+          right: 5px;
+          left: 50px;
+}*/
+
+.iphonepro-container{
+    background-image: url(image/images/iphone11-pro-bg.jpg);
+    height: 460px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iphone-title{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 42px;
+    padding-top: 27px;
+}
+.camera-performance{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.price-iphone{
+    text-align: center;
+    color: gray;
+    padding-top: 8px;
+}
+.link-wraper{
+text-align: center;
+
+}
+.link-wraper a{
+    color: deepskyblue;
+    text-decoration: none;
+
+}
+.iphone11-wrapper{
+    background-image: url(image/images/iphone11-bg.jpg);
+     height: 460px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iphone-title{
+    color: #000;
+}
+.camera-performance{
+    color: #808080;
+    font-size: 23px;
+}
+/*watch and card styling*/
+.general-container{
+    display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+
+}
+.watch-containers{
+     height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%; 
+    padding-top: 54px;
+
+}
+.general-container .watch-containers{
+    background-image: url(image/images/watch-series-5.jpg);
+}
+
+.apple-card-container{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%; 
+    padding-top: 54px;
+}
+.general-container .apple-card-container{
+    background-image: url(image/images/apple-card.jpg);
+}
+.watch-description-container .price-apple{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.TV-Home-Airpods-container{
+    display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 13px;
+}
+.TV-Home-Airpods-container .apple-tv-container {
+    background-image: url(image/images/apple-tv-background.jpg);
+}
+.apple-tv-container{
+     height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.55% 0% 1%; 
+    padding-top: 45px;
+}
+.servant-wraper{
+   padding: 175px 0 200px;
+}
+.TV-Home-Airpods-container .airpod-container{
+    background-image: url(image/images/air-pods.jpg);
+        color: #fff; 
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
+}
+.airpod-container{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%; 
+    padding-top: 54px; 
+}
+.macpro-book-ipad-container{
+     display: flex;
+  justify-content: space-between;
+  background: #fff;
+  text-align: center;
+}
+.macpro-book-ipad-container .macbooks-wrapper{
+    background-image: url(image/images/mac-laptop.jpg);
+      background-position: bottom;
+      background-size: auto;
+      
+}
+.macbooks-wrapper{
+     height:480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%; 
+    padding-top: 54px; 
+}
+
+.macpro-book-ipad-container .ipad-containers{
+    background-image: url(image/images/new-ipad.jpg);
+}
+.ipad-containers{
+     height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%; 
+    padding-top: 54px; 
+}
+/* footer stayling part */
+.footer-wrapper{
+background-color: #f3f3fc;
+color: #1d1d1f;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.footer-text-container{
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px; 
+
+}
+.footer-wrapper .footer-text-container{
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.footer-text-container a{
+  text-decoration: none;
+  color: #515154;
+}
+.footer-text-container a:hover{
+  text-decoration: underline;
+}
+.footer-link-contaner{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+ 
+}
+.footer-wrapper ul{
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.footer-wrapper ul li{
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-link-contaner a{
+  color: #515154;
+  text-decoration: none;
+}
+.footer-link-contaner a:hover{
+  text-decoration: underline;
+}
+.footer-link-contaner h1{
+  font-size: 12px;
+  font-weight: 600px;
+}
+.lower-footer-text{
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 13px;
+}
+.lower-footer-text a{
+   text-decoration: none;
+  color: #515154;
+}
+ .lower-footer-text a:hover{
+  text-decoration: underline;
+
+ }
+ .bottom-cotainer {
+    border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 13px;
+ }
+  .bottom-cotainer a{
+    text-decoration: none;
+    color: #515154;
+    color: deepskyblue;
+    
+  }
+  .bottom-cotainer a:hover{
+    text-decoration: underline;
+    color: #f72;
+  } 
